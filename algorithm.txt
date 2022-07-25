@@ -1,0 +1,17 @@
+Everytime the user Enters details...Data will enter policyDetails table.
+
+Data is received workflowexecutionDTO.
+
+Each record in Billing Master is fetched.
+
+Based on the table(policy details) each column in BillingMaster is updated with relavent data
+eg. policyDetails.BillingMaster.totalTaxPaid is set to zero initially
+	.
+	.
+	.
+    
+	.
+	.
+      policyDetails.BillingMaster.cancellationDate is set to Null
+      policyDetails.BillingMaster.payPlan is set to Policydetails.payPlan
+      policyDetails.BillingMaster.totalAmountDue is set to sum of
